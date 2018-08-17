@@ -31,7 +31,7 @@ li.dropdown {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #green;
+    background-color: white;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -55,7 +55,7 @@ li.dropdown {
 
 .topnav {
   overflow: hidden;
-  background-color: #e9e9e9;
+  background-color: white;
   float: right;
   width: 600px;
 }
@@ -64,7 +64,7 @@ li.dropdown {
   float: right;
   color: black;
   text-align: center;
-  padding: 15px 15px;
+  padding: 8.5px 14px;
   font-size: 17px;
 }
 
@@ -80,28 +80,23 @@ li.dropdown {
 
 .topnav .search-container {
   float: right;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgrey;
 }
 
 .topnav input[type=text] {
-  padding: 6px;
-  margin-top: 8px;
-  font-size: 17px;
+  height: 40px;
+  font-size: 14px;
   border: none;
 }
 
 .topnav .search-container button {
   float: right;
   padding: 6px 10px;
-  margin-top: 8px;
-  margin-right: 16px;
-  background: #ddd;
-  font-size: 17px;
+  font-size: 18px;
   border: none;
   cursor: pointer;
-}
-
-.topnav .search-container button:hover {
-  background: #ccc;
 }
 
 @media screen and (max-width: 600px) {
