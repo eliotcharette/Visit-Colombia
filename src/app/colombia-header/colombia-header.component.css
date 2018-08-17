@@ -1,4 +1,9 @@
-
+.row {
+  float: right;
+}
+.topnav {
+  float: right;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -35,7 +40,7 @@ li.dropdown {
 }
 
 .dropdown-content a {
-    color: black;
+    color: grey;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
