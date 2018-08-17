@@ -14,9 +14,9 @@ li {
 
 li a, .dropbtn {
     display: inline-block;
-    color: grey;
+    color: #C1C1C1;
     text-align: center;
-    padding: 14px 16px;
+    padding: 12px 12px;
     text-decoration: none;
 }
 
@@ -62,15 +62,15 @@ li.dropdown {
 
 .topnav a {
   float: right;
-  color: black;
+  color: grey;
   text-align: center;
-  padding: 8.5px 14px;
-  font-size: 17px;
+  padding: 6px 8px;
+  font-size: 20px;
 }
 
 .topnav a:hover {
   background-color: lightblue;
-  color: black;
+  color: white;
 }
 
 .topnav a.active {
