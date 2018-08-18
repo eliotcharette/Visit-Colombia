@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { ColombiaHeaderComponent } from './colombia-header/colombia-header.component';
 import { ColombiaNavComponent } from './colombia-nav/colombia-nav.component';
 import { ColombiaFooterComponent } from './colombia-footer/colombia-footer.component';
+import { ColombiaCarouselComponent } from './colombia-carousel/colombia-carousel.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { ColombiaFooterComponent } from './colombia-footer/colombia-footer.compo
     AppComponent,
     ColombiaHeaderComponent,
     ColombiaNavComponent,
-    ColombiaFooterComponent
+    ColombiaFooterComponent,
+    ColombiaCarouselComponent
   ],
   imports: [
     BrowserModule
