@@ -9,6 +9,7 @@ ul {
 
 li {
     float: right;
+    font-size: 15px;
 }
 #holiday {
   font-size: 32px;
@@ -34,6 +35,7 @@ li.dropdown {
 }
 
 .dropdown-content {
+    font-size: 18px;
     display: none;
     background-color: white;
     position: static;
