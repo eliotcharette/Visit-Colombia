@@ -7,5 +7,10 @@
   <h4> by {{experience.author}}</h4>
   <p>{{experience.date}}</p>
   <p>"{{experience.description}}"</p>
-</div>
+<div *ngIf="currentRoute === '/admin'">
+      <hr>
+      <p>{{experience.description}}</p>
+      <app-admin [selectedExperience]="experience"></app-admin>
+    </div>
+  </div>
 </div>

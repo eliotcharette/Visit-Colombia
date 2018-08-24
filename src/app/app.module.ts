@@ -4,7 +4,6 @@ import { routing } from './app.routing';
 import { AppComponent } from './app.component';
 import { ColombiaHeaderComponent } from './colombia-header/colombia-header.component';
 import { ColombiaNavComponent } from './colombia-nav/colombia-nav.component';
-import { ColombiaFooterComponent } from './colombia-footer/colombia-footer.component';
 import { ColombiaCarouselComponent } from './colombia-carousel/colombia-carousel.component';
 import { ColombiaWelcomeComponent } from './colombia-welcome/colombia-welcome.component';
 import { FormsModule } from '@angular/forms';
@@ -28,7 +27,6 @@ export const firebaseConfig = {
     AppComponent,
     ColombiaHeaderComponent,
     ColombiaNavComponent,
-    ColombiaFooterComponent,
     ColombiaCarouselComponent,
     ColombiaWelcomeComponent,
     NewExperienceComponent,

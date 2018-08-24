@@ -4,6 +4,7 @@ import { ColombiaWelcomeComponent } from './colombia-welcome/colombia-welcome.co
 import { ExperienceComponent } from './experience/experience.component';
 import { ColombiaNavComponent } from './colombia-nav/colombia-nav.component';
 import { NewExperienceComponent } from './new-experience/new-experience.component';
+import { AdminComponent } from './admin/admin.component';
 
 const appRoutes: Routes = [
   {
@@ -18,6 +19,10 @@ const appRoutes: Routes = [
     path: 'new-experience',
     component: NewExperienceComponent
   },
+  {
+    path: 'admin',
+    component: ExperienceComponent
+  }
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);

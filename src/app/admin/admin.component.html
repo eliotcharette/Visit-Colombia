@@ -1,3 +1,20 @@
-<p>
-  admin works!
-</p>
+<h4>Update and Delete Experiences</h4>
+
+<label>New Post Title:</label>
+<input [(ngModel)]="selectedExperience.title">
+<br>
+
+<label>New Post Author:</label>
+<input [(ngModel)]="selectedExperience.organizer">
+<br>
+
+<label>New Post Date:</label>
+<input [(ngModel)]="selectedExperience.date">
+<br>
+
+<label>New Post Description:</label>
+<input [(ngModel)]="selectedExperience.description">
+
+<button class="btn btn-warning" (click)="updateExperience(selectedExperience)">Update</button>
+<button class="btn btn-danger" (click)="deleteExperience(selectedExperience)">Delete</button>
+<hr>
