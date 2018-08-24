@@ -8,8 +8,8 @@ Eliot Charette
 08/17/2018
 
 ## Installation
-1. Clone to your local computer
-2. Set up a Database with firebase
+1. Clone to your local computer from github.
+2. Set up a Realtime Database with firebase.
 
 
 ## Development server
@@ -35,3 +35,25 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Specifications
+
+
+
+### Technologies Used
+
+* JS
+* HTML
+* Angular
+* Firebase
+* CSS
+* Bootstrap
+
+### Support and Contact Details
+If you encounter any bugs or would like to make suggestions regarding this project, please feel free to contact eliotcharette@gmail.com.
+
+
+
+### License
+
+This project is distributed under the MIT License
