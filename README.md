@@ -1,6 +1,16 @@
-# Colombia
+# Visit Colombia
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+A Web app that allows users to get a taste of Colombia and help them plan their next trip.
+
+## Created
+Eliot Charette
+08/17/2018
+
+## Installation
+1. Clone to your local computer
+2. Set up a Database with firebase
+
 
 ## Development server
 
