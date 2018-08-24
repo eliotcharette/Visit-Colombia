@@ -17,7 +17,7 @@ const appRoutes: Routes = [
   {
     path: 'new-experience',
     component: NewExperienceComponent
-  }
+  },
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);
