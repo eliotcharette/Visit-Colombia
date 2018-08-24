@@ -12,5 +12,8 @@ export class ExperienceService {
   getExperiences() {
     return this.experiences;
   }
+  addExperience(newExperience: Experience){
+    this.experiences.push(newExperience);
+  }
 
 }

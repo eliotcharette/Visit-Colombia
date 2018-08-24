@@ -1,3 +1,31 @@
-<p>
-  new-experience works!
-</p>
+<h3>Share Your Colombian Experience</h3>
+<div class="card card-body">
+
+  <div>
+    <label>Post Title:</label>
+    <br>
+    <input #newTitle>
+  </div>
+
+  <div>
+    <label>Post Author:</label>
+    <br>
+    <input #newAuthor>
+  </div>
+
+  <div>
+    <label>Post Date:</label>
+    <br>
+    <input #newDate>
+  </div>
+
+  <div>
+    <label>Tell us about your experience:</label>
+    <br>
+    <textarea #newDescription></textarea>
+  </div>
+  <button class="btn btn-success" (click)="submitForm(newTitle.value, newAuthor.value, newDate.value, newDescription.value); newTitle.value=''; newAuthor.value=''; newDate.value=''; newDescription.value=''">Share!</button>
+</div>
+<div>
+  <app-experience></app-experience>
+</div>
