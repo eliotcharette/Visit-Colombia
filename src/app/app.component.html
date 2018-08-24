@@ -6,34 +6,22 @@
 <div class="nav">
   <app-colombia-nav></app-colombia-nav>
 </div>
-<router-outlet></router-outlet>
-<footer class="footer">
-  <!-- <ul class="nav navbar-nav navbar-right">
-        <li *ngIf="isLoggedIn"> \\if the user is logged in, we’ll show that user’s name along with an event binding to logout.
-          <a>{{userName}}</a>
-          <a (click)="logout()">Log out</a>
-        </li>
-        <li *ngIf ="!isLoggedIn"> \\if the user isn’t logged in, we’ll have an event binding to login.
-          <a (click)="login()">Log in</a>
-        </li>
-  <a  id="admin" routerLink="admin">Admin</a>
-  <a routerLink="">Authentication Example</a> -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <h4>Admin Login</h4>
-    <h4>Email: </h4>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Email" aria-label="Search">
-    </form>
-    <h4>Password: </h4>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Password" aria-label="Search">
-      <a><button routerLink="admin" class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button></a>
-    </form>
-  </div>
-</nav>
+<router-outlet></router-outlet>
+
+<footer class="footer">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <h4>Admin Login</h4>
+      <h4>Email: </h4>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Email" aria-label="Search">
+      </form>
+      <h4>Password: </h4>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Password" aria-label="Search">
+        <a><button routerLink="admin" class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button></a>
+      </form>
+    </div>
+  </nav>
 </footer>
