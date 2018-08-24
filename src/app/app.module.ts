@@ -10,7 +10,17 @@ import { ColombiaWelcomeComponent } from './colombia-welcome/colombia-welcome.co
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { NewExperienceComponent } from './new-experience/new-experience.component';
+import { masterFirebaseConfig } from './api-keys';
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
+import { ExperienceComponent } from './experience/experience.component';
 
+export const firebaseConfig = {
+  apiKey: masterFirebaseConfig.apiKey,
+  authDomain: masterFirebaseConfig.authDomain,
+  databaseURL: masterFirebaseConfig.databaseURL,
+  storageBucket: masterFirebaseConfig.storageBucket
+};
 
 @NgModule({
   declarations: [
@@ -20,13 +30,16 @@ import { NewExperienceComponent } from './new-experience/new-experience.componen
     ColombiaFooterComponent,
     ColombiaCarouselComponent,
     ColombiaWelcomeComponent,
-    NewExperienceComponent
+    NewExperienceComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
-    routing
+    routing,
+    AngularFireModule.initializeApp(firebaseConfig),
+    AngularFireDatabaseModule
   ],
   providers: [],
   bootstrap: [AppComponent]
