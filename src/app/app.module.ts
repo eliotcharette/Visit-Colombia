@@ -9,6 +9,7 @@ import { ColombiaCarouselComponent } from './colombia-carousel/colombia-carousel
 import { ColombiaWelcomeComponent } from './colombia-welcome/colombia-welcome.component';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { NewExperienceComponent } from './new-experience/new-experience.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { HttpModule } from '@angular/http';
     ColombiaNavComponent,
     ColombiaFooterComponent,
     ColombiaCarouselComponent,
-    ColombiaWelcomeComponent
+    ColombiaWelcomeComponent,
+    NewExperienceComponent
   ],
   imports: [
     BrowserModule,
