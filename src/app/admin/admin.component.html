@@ -1,11 +1,11 @@
-<h4>Update and Delete Experiences</h4>
+<h4>Update or Delete this post </h4>
 
 <label>New Post Title:</label>
 <input [(ngModel)]="selectedExperience.title">
 <br>
 
 <label>New Post Author:</label>
-<input [(ngModel)]="selectedExperience.organizer">
+<input [(ngModel)]="selectedExperience.author">
 <br>
 
 <label>New Post Date:</label>
@@ -15,6 +15,6 @@
 <label>New Post Description:</label>
 <input [(ngModel)]="selectedExperience.description">
 
-<button class="btn btn-warning" (click)="updateExperience(selectedExperience)">Update</button>
-<button class="btn btn-danger" (click)="deleteExperience(selectedExperience)">Delete</button>
+<button class="btn btn-warning" (click)="updateThisPost(selectedExperience)">Update</button>
+<button class="btn btn-danger" (click)="deleteThisPost(selectedExperience)">Delete</button>
 <hr>

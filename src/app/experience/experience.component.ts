@@ -13,7 +13,7 @@ import { Router } from '@angular/router';
 export class ExperienceComponent implements OnInit {
   experiences: FirebaseListObservable<any[]>;
 
-  // currentRoute: string = this.route.url;
+   currentRoute: string = this.router.url;
 
   constructor(private router: Router, private experienceService: ExperienceService) { }
 

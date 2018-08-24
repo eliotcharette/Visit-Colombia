@@ -1,7 +1,8 @@
+<br>
 <div class="container">
 
 <h2>Personal Experiences</h2>
-
+<hr>
 <div *ngFor="let experience of experiences | async" class="card card-default">
   <h3><em>{{experience.title}}</em></h3>
   <h4> by {{experience.author}}</h4>
@@ -9,7 +10,6 @@
   <p>"{{experience.description}}"</p>
 <div *ngIf="currentRoute === '/admin'">
       <hr>
-      <p>{{experience.description}}</p>
       <app-admin [selectedExperience]="experience"></app-admin>
     </div>
   </div>

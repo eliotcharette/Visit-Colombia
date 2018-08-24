@@ -1,6 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Experience } from '../experience.model';
 import { ExperienceService } from '../experience.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-admin',
@@ -19,7 +20,7 @@ export class AdminComponent implements OnInit {
   updateThisPost(postToUpdate){
     this.experienceService.updatePost(postToUpdate);
   }
-  deleteThisExperience(postToDelete){
+  deleteThisPost(postToDelete){
     if(confirm("Are you sure you want to permanantly delete this item")){
       this.experienceService.deletePost(postToDelete);
     }
