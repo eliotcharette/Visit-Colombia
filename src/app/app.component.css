@@ -13,8 +13,8 @@
   height: 50px;
   background-color: #f5f5f5;
 }
-#admin {
-  position: fixed;
-  bottom: 0;
-  float: left;
+h4 {
+  padding-left: 10px;
+  padding-right: 5px;
+  color: grey;
 }
